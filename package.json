@@ -1,14 +1,18 @@
 {
-  "name": "pimatic-smartmeter",
-  "description": "Get energy usage data from P1 SmartMeter in pimatic",
+  "name": "pimatic-smartmeter-gas",
+  "description": "Get energy and gas usage data from P1 SmartMeter in pimatic",
   "author": {
-    "name": "Saber Karmous",
-    "email": "saberone@gmail.com",
-    "url": "https://github.com/saberone"
+    "name": "Jos Hendriks",
+    "email": "jos@hendriks.software",
+    "url": "https://www.hendriks.software"
   },
-  "author_name": "Saber Karmous <saberone@gmail.com> (https://github.com/saberone/)",
-  "author_url": "https://github.com/saberone/",
+  "author_name": "Jos Hendriks <jos@hendriks.software>",
+  "author_url": "https://www.hendriks.software",
   "contributors": [
+    {
+      "name": "Saber Karmous <saberone@gmail.com>",
+      "url": "https://github.com/saberone/"
+    },
     {
       "name": "Michael Rave"
     },
@@ -39,15 +43,11 @@
     "pimatic",
     "devices"
   ],
-  "version": "0.0.18",
+  "version": "0.0.1",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/saberone/pimatic-smartmeter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/saberone/pimatic-smartmeter.git/issues",
-    "email": "saberone@gmail.com"
+    "url": "https://github.com/joshendriks/pimatic-smartmeter.git"
   },
   "configSchema": "pimatic-smartmeter-config-schema.coffee",
   "dependencies": {
